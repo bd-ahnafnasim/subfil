@@ -1,0 +1,317 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+ /*----------------------- top banner style here -----------------*/
+ .first-banner{
+    background-color: #1E1E1E;
+    color:white;
+    display: flex;
+    border-radius: 15px;
+    width:970px;
+    height:400px ;
+    margin: 40px auto;
+   
+}
+.banner-text4,banner-img3{
+    width: 50%;
+   
+}
+
+.banner-img3 img{
+       width: 100%;
+       height: 370px;
+}
+.banner-img3{
+    margin: 30px 0 60px 0;
+}
+#button1{
+    padding: 7px 18px;
+    margin-top: 25px;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+}
+
+.title2{
+    font-size:30px;
+    font-weight: 700;
+}
+.banner-text4{
+    margin: 60px 40px;
+}
+
+
+/*---------------------- header responsive start here --------------------------------*/
+@media only screen and (max-width: 500px){
+    .first-banner{
+        background-color: #1E1E1E;
+        color:white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 15px;
+        width:310px;
+        height:550px ;
+        margin: 40px auto 30px;
+        position: relative;
+        }
+    .banner-text4,banner-img3{
+        width: 100%;
+        
+    }
+
+    .banner-img3{
+       margin: 10px 40px -40px 40px;
+      
+    }
+    .banner-img3 img{
+        width: 250px;
+        height: 300px;
+        display: block;
+    }
+    .banner-text4{
+        text-align: center;
+        justify-content: center;
+        
+        
+    }
+    .banner-text4{
+        margin: 10px 10px;
+        padding-top: 20px 20px;
+    }
+    .title2{
+        font-size:20px;
+        font-weight: 700;
+    }
+
+}
+
+
+
+/*---------- .cards style start here --------------------------*/
+
+.parent-div{
+    display: flex;
+    margin: 0 70px;
+    
+}
+.side-menu{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   justify-content: center;
+    background-color: #161616;
+    width: 250px;
+    height:200px ;
+    border-radius: 10px;
+   
+   }
+   .common{
+        
+    margin: 15px ;
+    background-color:white;
+    width:200px;
+    height:30px;
+    border-radius: 7px;
+    border: none;
+}
+
+
+  
+.color{
+  background-color: #DD0000;  
+}
+
+.cards{
+display: flex;
+display: grid;
+
+grid-template-columns: repeat(3,1fr);
+grid-gap: 15px;
+margin-left: 15px;
+}
+.div-grid{
+
+    width:180px ;
+    height: 130px;
+    background-color:white;
+    border-radius: 10px;
+    border: 0.5px solid rgb(233, 224, 224);
+}
+/*--------------------------------- extra-thing------------  */
+.image{
+    width: 80px;
+    height: 50px;
+   display: block;
+    padding:7px;
+   
+}
+
+.flag{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+.textt{
+    text-align: center;
+}
+span{
+    color:rgb(138, 127, 127);
+    font-size: 13px;
+    
+}
+
+
+/*------------- cards responsive start here---------------------------------------------------- */
+
+  /* cards responsive style start here */
+  @media only screen and (max-width: 500px)
+  {
+  
+      .parent-div{
+          display: flex;
+          flex-direction: column;
+              margin: 0 70px;}
+      
+       .side-menu{
+          background-color:white;
+          display: flex;
+          flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         
+          width: 150px;
+          height:100px ;
+          border-radius: 10px;
+          margin: 20px 15px;
+         }
+         .cards{
+          display: grid;
+          grid-template-columns: repeat(1,1fr);
+          grid-gap: 15px;
+          margin-top: 30px;
+          justify-content: center;
+          align-items: center;
+          
+         }
+        .div-grid{
+          width:210px ;
+          height: 110px;
+          background-color:white;
+          border-radius: 10px;
+          border: 0.5px solid rgb(233, 224, 224);
+        }
+        .image{
+            
+        width: 100px;
+        height: 50px;
+      
+       
+      }
+          .common{
+              
+              width:200px;
+              background-color: #fff;
+              border: 1px solid #d5d9d9;
+              border-radius: 8px;
+              box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+              color: #0f1111;
+              font-size: 13px;
+              line-height: 25px;
+              padding: 0 10px 0 11px;
+             
+              
+              
+          }
+          .color{
+            background-color: #DD0000;  
+          }
+  }    
+
+
+       
+  /*-------------------- footer style start here------------------------ */
+
+
+footer{
+    background-color: #161616;
+    width:100vw;
+    height:70vh;
+    display: fixed;
+    margin-top: 20px;
+   
+}
+.footer-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title3{
+    margin-top: 35px;
+    color: white;
+}
+.hr{
+    margin:30px 20px ;
+    opacity: 0.5;
+}
+
+
+.container {
+    display: flex;
+   justify-content: center;
+  }
+  
+    .container div a{
+        color: aliceblue;
+        text-decoration: none;
+        padding: 0 20px;
+        font-weight: 500;
+    }
+
+
+
+
+    /*
+    ------------footer responsive start here ------------------------------*/
+    @media only screen and (max-width: 500px) {
+        .container{
+        align-items: center;
+         display:flex;
+         flex-direction: column;
+         justify-content: center;
+         column-gap: 30px;
+         
+         
+        }
+
+        .container>div{
+            padding: 10px;
+        }
+        .container div a{
+            color: aliceblue;
+            text-decoration: none;
+            font-weight: 500;
+            color: aquamarine;
+            column-gap: 30px;
+            position: relative;
+            padding-top: 200px;
+           
+            }
+            footer{
+                height:400px;
+                width: 100vw;
+                margin-top: 20px;
+            }
+
+      }    
+
+     
+        
+     
